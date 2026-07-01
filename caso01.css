@@ -1,0 +1,93 @@
+/* Estilos Base de la Página */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px 0;
+}
+
+/* 1. Contenedor Principal */
+#contenedor {
+    width: 1000px;
+    margin: 0 auto;          /* Centra el bloque horizontalmente */
+    border-radius: 15px;
+    overflow: hidden;        /* Evita que los hijos tapen las esquinas redondeadas */
+    background-color: #e0e0e0;
+}
+
+/* 2. Encabezado (Header) */
+header {
+    background-color: #222222;
+    color: #ffffff;
+    height: 120px;
+    /* Centrado vertical y horizontal del texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* 3. Menú (Nav) */
+nav {
+    background-color: #cc0000;
+    color: #ffffff;
+    height: 50px;
+    /* Centrado vertical y horizontal del texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* 4. Zona Central: Tres Columnas Flotantes */
+
+/* Columna Izquierda */
+#menu-lateral {
+    float: left;
+    width: 200px;
+    height: 450px;
+    background-color: #777777;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/* Columna Central */
+#noticias {
+    float: left;
+    width: 570px;
+    height: 450px;
+    background-color: #ffffff;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+/* Columna Derecha */
+#publicidad-lateral {
+    float: right;
+    width: 210px;
+    height: 450px;
+    background-color: #ffcc00;
+    color: #000000;
+    margin-top: 10px;
+}
+
+/* 5. Pie de Página (Footer) */
+footer {
+    clear: both;             /* Obligatorio para limpiar las tres columnas flotantes */
+    background-color: #000000;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Relleno opcional para separar el texto de los bordes dentro de las columnas */
+.contenido {
+    padding: 15px;
+}

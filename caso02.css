@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #dddddd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor{
+    width: 900px;
+    margin: auto;
+}
+
+/* Encabezado */
+header{
+    width: 900px;
+    height: 100px;
+    background: #ffffff;
+    color: #000000;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* Galería de productos */
+#galeria{
+    width: 620px;
+    height: 600px;
+    background: #f0f0f0;
+    color: #000000;
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+/* Barra lateral */
+#lateral-tienda{
+    width: 260px;
+    height: 600px;
+    background: #111111;
+    color: white;
+    float: right;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+#lateral-tienda ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#lateral-tienda li{
+    margin-bottom: 10px;
+}
+
+/* Pie de página */
+footer{
+    clear: both;
+    width: 900px;
+    height: 60px;
+    background: #888888;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    margin-top: 15px;
+}
